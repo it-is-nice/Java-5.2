@@ -5,7 +5,8 @@ public class Main {
     long amount = 1000_60;
     boolean registered = true;
 
-    service.calculate(amount, registered);
+    long passed = service.calculate(amount, registered);
+    System.out.println(passed);
   }
 }
 
